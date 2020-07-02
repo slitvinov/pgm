@@ -7,14 +7,14 @@ int
 main()
 {
   unsigned char buf[3 * W * W];
-  memset(buf, 0, sizeof(buf));
-  int R = 40;
+  int R;
   int i;
   int j;
   int u;
   int v;
 
   for (R = 40; R < W/2; R++) {
+    memset(buf, 0, sizeof(buf));
     for (i = 0; i < W; i++)
       for (j = 0; j < W; j++) {
 	u = i - W/2;
