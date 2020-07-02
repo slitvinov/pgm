@@ -1,6 +1,6 @@
 .POSIX:
 CC     = c99
-CFLAGS = -Og -g
+CFLAGS = -Ofast -g
 LDLIBS = -lm
 
 main: main.c
