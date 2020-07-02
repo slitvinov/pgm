@@ -13,7 +13,7 @@ main()
   int u;
   int v;
 
-  for (R = 40; R < W/2; R++) {
+  for (R = W/10; R < W/2; R++) {
     memset(buf, 0, sizeof(buf));
     for (i = 0; i < W; i++)
       for (j = 0; j < W; j++) {
